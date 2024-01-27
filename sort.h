@@ -36,6 +36,8 @@ void cocktail_sort_list(listint_t **list);
 void counting_sort(int *array, size_t size);
 /* Meger sort function*/
 void merge_sort(int *array, size_t size);
+/* Heap sort function*/
+void heap_sort(int *array, size_t size);
 /* Add other sorting algorithm prototypes as needed */
 
 #endif /* SORT_H */
