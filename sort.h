@@ -26,6 +26,8 @@ void bubble_sort(int *array, size_t size);
 void insertion_sort_list(listint_t **list);
 /* Selection sort function*/
 void selection_sort(int *array, size_t size);
+/* Quick sort function*/
+void quick_sort(int *array, size_t size);
 /* Add other sorting algorithm prototypes as needed */
 
 #endif /* SORT_H */
