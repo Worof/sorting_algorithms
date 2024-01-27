@@ -30,6 +30,8 @@ void selection_sort(int *array, size_t size);
 void quick_sort(int *array, size_t size);
 /* Sell sort function*/
 void shell_sort(int *array, size_t size);
+/*  Cocktail shaker sort function*/
+void cocktail_sort_list(listint_t **list);
 /* Add other sorting algorithm prototypes as needed */
 
 #endif /* SORT_H */
