@@ -32,6 +32,8 @@ void quick_sort(int *array, size_t size);
 void shell_sort(int *array, size_t size);
 /*  Cocktail shaker sort function*/
 void cocktail_sort_list(listint_t **list);
+/* Counting sort function*/
+void counting_sort(int *array, size_t size);
 /* Add other sorting algorithm prototypes as needed */
 
 #endif /* SORT_H */
