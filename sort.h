@@ -38,6 +38,8 @@ void counting_sort(int *array, size_t size);
 void merge_sort(int *array, size_t size);
 /* Heap sort function*/
 void heap_sort(int *array, size_t size);
+/* Radix sort function*/
+void radix_sort(int *array, size_t size);
 /* Add other sorting algorithm prototypes as needed */
 
 #endif /* SORT_H */
